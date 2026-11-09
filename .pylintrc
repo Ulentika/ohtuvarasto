@@ -1,0 +1,33 @@
+[MAIN]
+
+ignore=tests
+
+[MESSAGE CONTROL]
+
+disable=raw-checker-failed,
+        bad-inline-option,
+        locally-disabled,
+        file-ignored,
+        suppressed-message,
+        useless-suppression,
+        deprecated-pragma,
+        use-symbolic-message-instead,
+        missing-module-docstring,
+        missing-function-docstring,
+        missing-class-docstring
+
+
+[FORMAT]
+# Python-koodirivin maksimipituus
+max-line-length=80
+
+[REFACTORING]
+# Sisäkkäisiä lohkoja saa olla enintään kaksi
+max-nested-blocks=2
+
+[DESIGN]
+# Funktiossa saa olla enintään 15 lausetta
+max-statements=15
+
+# Funktiolla saa olla enintään viisi parametria
+max-args=5
